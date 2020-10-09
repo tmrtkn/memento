@@ -13,3 +13,7 @@ def add():
     print('Url: ' + url)
     print('bar: ' + bar)
     return "200 OK"
+
+
+if __name__ == "main":
+    app.run(ssl_context='adhoc')
